@@ -24,7 +24,7 @@ export default function ThreeBillingProblems() {
 
       <ScrollReveal delay={0.15}>
         <p className="mt-8">
-          The most concerning pattern is unauthorized charges &mdash; reviewers describing credit card charges they did not consent to, failed attempts to get refunds, and continued billing after cancellation. This is the pattern most consistent with the FTC&apos;s original complaint about deceptive business practices.
+          The most concerning pattern is <strong>unauthorized charges</strong> &mdash; reviewers describing credit card charges they did not consent to, failed attempts to get refunds, and continued billing after cancellation. This is the pattern most consistent with the FTC&apos;s original complaint about deceptive business practices.
         </p>
         <QuoteDrawer drawerId="billing-unauthorized" linkText="see unauthorized charge reviews" />
       </ScrollReveal>

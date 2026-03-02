@@ -14,7 +14,10 @@ export default function Closing() {
             What has changed is everything around the therapy. Billing practices, cancellation friction, and perceived value have become the dominant themes in negative reviews. The FTC complaint appears to have been both a catalyst for attention and a marker of genuine operational problems that have since deepened.
           </p>
           <p>
-            The 1-star proportion has risen from 6% to 30% in three years. That trajectory, if it continues, represents a serious threat to BetterHelp&apos;s reputation and market position &mdash; not because the therapy doesn&apos;t work, but because the business practices surrounding it are eroding trust.
+            The 1-star proportion has risen from <strong>6% to 30%</strong> in three years. That trajectory, if it continues, represents a serious threat to BetterHelp&apos;s reputation and market position &mdash; not because the therapy doesn&apos;t work, but because <strong>the business practices surrounding it are eroding trust</strong>.
+          </p>
+          <p>
+            The patterns in 9,064 reviews are a map. The three studies above are the next steps. The question is whether someone walks the path.
           </p>
         </div>
       </ScrollReveal>

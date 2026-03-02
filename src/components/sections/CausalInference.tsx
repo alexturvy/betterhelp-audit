@@ -17,7 +17,7 @@ export default function CausalInference() {
         <div className="mt-6">
           <h3 className="mb-3">Regression Discontinuity</h3>
           <p>
-            Regression discontinuity looks at a narrow window around a single date and asks: is there a sharp, discontinuous change at exactly that point? If ratings were drifting down gradually, you wouldn&apos;t see a discontinuity &mdash; you&apos;d see a smooth slope. A sharp break at the exact date of the FTC complaint is harder to explain away as coincidence. The rdrobust estimate &mdash; using R&apos;s standard package for sharp RD designs &mdash; shows a drop of 0.19 points at exactly that date, statistically significant (p&nbsp;=&nbsp;0.019).
+            Regression discontinuity looks at a narrow window around a single date and asks: is there a sharp, discontinuous change at exactly that point? If ratings were drifting down gradually, you wouldn&apos;t see a discontinuity &mdash; you&apos;d see a smooth slope. A sharp break at the exact date of the FTC complaint is harder to explain away as coincidence. The rdrobust estimate &mdash; using R&apos;s standard package for sharp RD designs &mdash; shows <strong>a drop of 0.19 points at exactly that date</strong>, statistically significant (p&nbsp;=&nbsp;0.019).
           </p>
           <RDScatter />
         </div>
@@ -27,13 +27,22 @@ export default function CausalInference() {
         <div className="mt-12">
           <h3 className="mb-3">Interrupted Time Series</h3>
           <p>
-            Interrupted time series does something different &mdash; it models the entire trajectory before and after the event, accounting for any pre-existing trend. This matters because if ratings were already declining before the FTC complaint, the apparent drop might just be a continuation of an existing trend, not a new shock. The model shows: ratings were actually stable or slightly increasing before March 2023. The decline is new.
+            Interrupted time series does something different &mdash; it models the entire trajectory before and after the event, accounting for any pre-existing trend. This matters because if ratings were already declining before the FTC complaint, the apparent drop might just be a continuation of an existing trend, not a new shock. The model shows: ratings were actually <strong>stable or slightly increasing</strong> before March 2023. <strong>The decline is new.</strong>
           </p>
           <p>
-            The multi-event version of this model reveals something the single-event analysis misses. The chart below shows four distinct segments: a flat pre-FTC baseline, a sharp drop and steep decline after the FTC complaint, a partial recovery at the settlement (both a level jump and a slope reversal &mdash; ratings briefly stabilized), and then the insurance expansion in 2024 triggered a new downward slope of -0.048 points per month that&apos;s still steepening.
+            The multi-event version of this model reveals something the single-event analysis misses. The chart below shows four distinct segments: a flat pre-FTC baseline, a sharp drop and steep decline after the FTC complaint, a partial recovery at the settlement (both a level jump and a slope reversal &mdash; ratings briefly stabilized), and then the insurance expansion in 2024 triggered a new downward slope of <strong>&minus;0.048 points per month</strong> that&apos;s still steepening.
           </p>
           <ITSFittedLine />
         </div>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.18}>
+        <p className="mt-8">
+          Read the coefficients together and a two-crisis story emerges. The settlement recovery (+0.24 level shift) nearly offset the FTC drop (&minus;0.20). If the FTC complaint were the only shock, BetterHelp&apos;s trajectory would have roughly stabilized by late 2023. It didn&apos;t &mdash; because the insurance expansion introduced a new, separate decline (&minus;0.048 points per month) that has nothing to do with the trust wound and everything to do with billing operations.
+        </p>
+        <p className="pl-4 border-l-2 border-accent text-foreground font-medium">
+          These aren&apos;t two chapters of the same crisis. They&apos;re two different crises that happen to compound.
+        </p>
       </ScrollReveal>
 
       <ScrollReveal delay={0.2}>

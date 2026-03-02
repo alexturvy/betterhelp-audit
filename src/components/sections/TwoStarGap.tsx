@@ -28,12 +28,18 @@ export default function TwoStarGap() {
 
       <ScrollReveal delay={0.15}>
         <p className="mt-8">
-          Ongoing Sessions averages 4.82 stars &mdash; nearly perfect. Cancellation/Churn sits at 2.69. That&apos;s a 2.13-star gap within the same platform.
+          <strong>Ongoing Sessions averages 4.82 stars</strong> &mdash; nearly perfect. <strong>Cancellation/Churn sits at 2.69.</strong> That&apos;s a <strong>2.13-star gap</strong> within the same platform.
         </p>
         <p>
-          Yes, you&apos;d expect cancellation reviews to skew negative &mdash; people who leave aren&apos;t happy. But the chart shows more than a selection effect. Every therapy-facing stage (Matching, Ongoing Sessions, First Session) scores above 4.3. Every operations-facing stage scores lower. And as the next chart shows, the gap is widening. This isn&apos;t &ldquo;unhappy people leave bad reviews.&rdquo; It&apos;s a product that works therapeutically and fails operationally &mdash; and the operational failure is accelerating.
+          Yes, you&apos;d expect cancellation reviews to skew negative &mdash; people who leave aren&apos;t happy. But the chart shows more than a selection effect. Every therapy-facing stage (Matching, Ongoing Sessions, First Session) scores above 4.3. Every operations-facing stage scores lower. And as the next chart shows, the gap is widening. This isn&apos;t &ldquo;unhappy people leave bad reviews.&rdquo; It&apos;s a product that <strong>works therapeutically and fails operationally</strong> &mdash; and the operational failure is accelerating.
         </p>
         <QuoteDrawer drawerId="twostargap-contrast" linkText="see the contrast side by side" />
+        <p>
+          This is the two-crisis distinction at the product level. The two-star gap isn&apos;t about trust &mdash; it&apos;s about business mechanics. Therapy stages score high because the therapy itself isn&apos;t affected by billing practices. The FTC settlement didn&apos;t close this gap because it was never a trust problem to close.
+        </p>
+        <p className="pl-4 border-l-2 border-accent text-foreground font-medium">
+          It&apos;s a billing problem unfolding in a trust-damaged context, and the operational stages are where it shows.
+        </p>
         <p>
           The last 24 months make the trajectory clear:
         </p>

@@ -28,10 +28,16 @@ export default function TopicShifts() {
 
       <ScrollReveal delay={0.15}>
         <p className="mt-8">
-          The biggest shift: billing disputes (Topic 2) more than doubled in prevalence, from 3.8% to 8.3% of all reviews. Waste and anger language (Topic 15) grew by 83%. Meanwhile, recommendation language (Topic 1) fell 30%.
+          The biggest shift: billing disputes (Topic 2) <strong>more than doubled</strong> in prevalence, from <strong>3.8% to 8.3%</strong> of all reviews. Waste and anger language (Topic 15) grew by <strong>83%</strong>. Meanwhile, recommendation language (Topic 1) <strong>fell 30%</strong>.
         </p>
         <QuoteDrawer drawerId="topics-billing" linkText="see billing dispute reviews" />
         <QuoteDrawer drawerId="topics-recommendation" linkText="see early recommendation reviews" />
+        <p>
+          The insurance-era comparison reveals how completely the vocabulary shifted from a satisfaction frame to a billing frame. The surging terms are operational: &ldquo;charged&rdquo; (+1.78 log-odds ratio), &ldquo;membership&rdquo; (+2.25), &ldquo;money&rdquo; (+0.73), &ldquo;company&rdquo; (+1.03). The declining terms are the language of recommendation: &ldquo;recommend&rdquo; (&minus;0.38), &ldquo;helpful&rdquo; (&minus;0.33), &ldquo;amazing&rdquo; (&minus;0.38).
+        </p>
+        <p className="pl-4 border-l-2 border-accent text-foreground font-medium">
+          People aren&apos;t writing about whether BetterHelp works anymore. They&apos;re writing about whether it charges them fairly. That&apos;s not a trust crisis &mdash; it&apos;s an operational one.
+        </p>
         <p>
           At the word level, the shift is even more granular. The term &ldquo;counselor&rdquo; nearly disappeared from reviews, replaced by &ldquo;therapist.&rdquo; Insurance-related vocabulary surged.
         </p>

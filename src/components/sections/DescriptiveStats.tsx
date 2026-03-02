@@ -10,11 +10,11 @@ export default function DescriptiveStats() {
       <ScrollReveal>
         <h2>The Surface Story</h2>
         <p>
-          At first glance, BetterHelp&apos;s review profile looks overwhelmingly positive. 81% of all reviews are 4 or 5 stars. The platform has accumulated thousands of glowing testimonials from people whose therapists changed their lives.
+          At first glance, BetterHelp&apos;s review profile looks overwhelmingly positive. <strong>81% of all reviews are 4 or 5 stars.</strong> The platform has accumulated thousands of glowing testimonials from people whose therapists changed their lives.
         </p>
         <QuoteDrawer drawerId="descriptive-glowing" linkText="see the glowing reviews" />
         <p>
-          But aggregates hide trajectories. When you spread these reviews across time, a different pattern emerges.
+          But <strong>aggregates hide trajectories</strong>. When you spread these reviews across time, a different pattern emerges.
         </p>
       </ScrollReveal>
 

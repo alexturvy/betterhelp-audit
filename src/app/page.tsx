@@ -7,6 +7,7 @@ import TopicShifts from "@/components/sections/TopicShifts";
 import TwoStarGap from "@/components/sections/TwoStarGap";
 import ThreeBillingProblems from "@/components/sections/ThreeBillingProblems";
 import ResearchDirections from "@/components/sections/ResearchDirections";
+import ResearchStudies from "@/components/sections/ResearchStudies";
 import Closing from "@/components/sections/Closing";
 import DataExplorer from "@/components/sections/DataExplorer";
 import ScrollProgress from "@/components/shared/ScrollProgress";
@@ -25,6 +26,7 @@ export default function Home() {
         <TwoStarGap />
         <ThreeBillingProblems />
         <ResearchDirections />
+        <ResearchStudies />
         <Closing />
         <DataExplorer />
       </main>
