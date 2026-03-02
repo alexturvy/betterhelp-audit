@@ -85,7 +85,7 @@ export default function ITSFittedLine() {
                 key={key}
                 type="linear"
                 dataKey={key}
-                stroke="#1a7a6d"
+                stroke="#2e7d5b"
                 strokeWidth={2.5}
                 dot={false}
                 connectNulls={false}

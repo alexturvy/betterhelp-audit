@@ -23,8 +23,8 @@ export default function ReviewVolume() {
           <AreaChart data={data} margin={{ top: 20, right: 20, bottom: 5, left: 0 }}>
             <defs>
               <linearGradient id="volumeGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#1a7a6d" stopOpacity={0.2} />
-                <stop offset="95%" stopColor="#1a7a6d" stopOpacity={0} />
+                <stop offset="5%" stopColor="#2e7d5b" stopOpacity={0.2} />
+                <stop offset="95%" stopColor="#2e7d5b" stopOpacity={0} />
               </linearGradient>
             </defs>
             <XAxis
@@ -53,7 +53,7 @@ export default function ReviewVolume() {
             <Area
               type="monotone"
               dataKey="nReviews"
-              stroke="#1a7a6d"
+              stroke="#2e7d5b"
               fill="url(#volumeGrad)"
               strokeWidth={1.5}
             />

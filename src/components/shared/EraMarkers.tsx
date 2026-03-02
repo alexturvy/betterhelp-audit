@@ -3,7 +3,7 @@ import { ReferenceLine } from "recharts";
 const EVENTS = [
   { x: "2023-03", label: "FTC Complaint", color: "#c44d4d" },
   { x: "2023-08", label: "Settlement", color: "#9CA3AF" },
-  { x: "2024-03", label: "Insurance Exp.", color: "#1a7a6d" },
+  { x: "2024-03", label: "Insurance Exp.", color: "#2e7d5b" },
 ];
 
 export default function EraMarkers() {

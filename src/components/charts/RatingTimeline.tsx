@@ -54,7 +54,7 @@ export default function RatingTimeline() {
             <Line
               type="monotone"
               dataKey="meanRating"
-              stroke="#1a7a6d"
+              stroke="#2e7d5b"
               strokeWidth={2.5}
               dot={(props: any) => {
                 const { cx, cy, payload } = props;
@@ -63,7 +63,7 @@ export default function RatingTimeline() {
                     cx={cx}
                     cy={cy}
                     r={3}
-                    fill={payload.era === "Pre-FTC" ? "#1a7a6d" : "#c44d4d"}
+                    fill={payload.era === "Pre-FTC" ? "#2e7d5b" : "#c44d4d"}
                     stroke="none"
                   />
                 );

@@ -28,7 +28,7 @@ export default function TopicDumbbell() {
 
       <div className="flex gap-4 text-xs text-text-muted mb-3">
         <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-full bg-[#1a7a6d]" />
+          <div className="w-3 h-3 rounded-full bg-[#2e7d5b]" />
           Pre-FTC
         </div>
         <div className="flex items-center gap-1.5">
@@ -69,13 +69,13 @@ export default function TopicDumbbell() {
                     left: `${Math.min(scale(t.prevalence.preFTC), scale(t.prevalence.insurance))}%`,
                     width: `${Math.abs(scale(t.prevalence.insurance) - scale(t.prevalence.preFTC))}%`,
                     background: isIncrease
-                      ? "linear-gradient(90deg, #1a7a6d, #c44d4d)"
-                      : "linear-gradient(90deg, #c44d4d, #1a7a6d)",
+                      ? "linear-gradient(90deg, #2e7d5b, #c44d4d)"
+                      : "linear-gradient(90deg, #c44d4d, #2e7d5b)",
                   }}
                 />
                 {/* Pre dot */}
                 <div
-                  className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-3.5 h-3.5 rounded-full bg-[#1a7a6d] border-2 border-white"
+                  className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-3.5 h-3.5 rounded-full bg-[#2e7d5b] border-2 border-white"
                   style={{ left: `${scale(t.prevalence.preFTC)}%` }}
                 />
                 {/* Post dot */}

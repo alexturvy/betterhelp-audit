@@ -73,7 +73,7 @@ export default function LexicalShiftBars() {
               {data.map((entry, i) => (
                 <Cell
                   key={i}
-                  fill={entry.shift > 0 ? "#1a7a6d" : "#c44d4d"}
+                  fill={entry.shift > 0 ? "#2e7d5b" : "#c44d4d"}
                 />
               ))}
             </Bar>

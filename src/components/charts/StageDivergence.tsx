@@ -60,7 +60,7 @@ export default function StageDivergence() {
                   <div className="recharts-tooltip">
                     <p className="font-medium">{d?.yearMonth}</p>
                     {d?.ongoing != null && (
-                      <p className="text-sm" style={{ color: "#1a7a6d" }}>
+                      <p className="text-sm" style={{ color: "#2e7d5b" }}>
                         Ongoing: <span className="font-mono">{d.ongoing.toFixed(2)}</span>{" "}
                         <span className="text-text-muted">(n={d.ongoingN})</span>
                       </p>
@@ -85,9 +85,9 @@ export default function StageDivergence() {
             <Line
               type="monotone"
               dataKey="ongoing"
-              stroke="#1a7a6d"
+              stroke="#2e7d5b"
               strokeWidth={2.5}
-              dot={{ r: 3, strokeWidth: 0, fill: "#1a7a6d" }}
+              dot={{ r: 3, strokeWidth: 0, fill: "#2e7d5b" }}
               name="ongoing"
             />
             <Line

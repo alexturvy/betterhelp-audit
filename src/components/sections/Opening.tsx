@@ -22,14 +22,14 @@ export default function Opening() {
         <p className="text-lg text-text-muted leading-relaxed mb-6 font-serif italic">
           Each analysis raised a question only the next one could answer.
         </p>
-        <div className="text-text-body leading-relaxed space-y-3 mb-2">
-          <p className="mb-0">
+        <div className="text-text-body leading-relaxed mb-2">
+          <p className="mb-5">
             BetterHelp is the world&apos;s largest online therapy platform. In March 2023, the FTC filed a complaint alleging the company shared users&apos; health data with advertisers.
           </p>
-          <p className="mb-0">
+          <p className="mb-5">
             A year later, the platform expanded insurance coverage &mdash; and the complaints changed shape.
           </p>
-          <p className="font-medium text-foreground mb-0">
+          <p className="pl-4 border-l-2 border-accent font-medium text-foreground mb-0">
             A trend emerged in the data. The methods revealed what&apos;s driving it. The gaps point to what to research next.
           </p>
         </div>

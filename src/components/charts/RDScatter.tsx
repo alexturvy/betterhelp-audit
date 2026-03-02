@@ -154,7 +154,7 @@ export default function RDScatter() {
               cx={xScale(d.daysFromFTC)}
               cy={yScale(d.meanRating)}
               r={Math.max(2, Math.sqrt(d.n) * 1.2)}
-              fill={d.daysFromFTC < 0 ? "#1a7a6d" : "#c44d4d"}
+              fill={d.daysFromFTC < 0 ? "#2e7d5b" : "#c44d4d"}
               fillOpacity={0.25}
               stroke="none"
             />
@@ -164,7 +164,7 @@ export default function RDScatter() {
           <path
             d={makePath(preBinned)}
             fill="none"
-            stroke="#1a7a6d"
+            stroke="#2e7d5b"
             strokeWidth={3}
             opacity={0.8}
           />
