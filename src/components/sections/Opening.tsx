@@ -1,0 +1,43 @@
+import ScrollReveal from "../shared/ScrollReveal";
+import StatCallout from "../shared/StatCallout";
+
+export default function Opening() {
+  return (
+    <div className="max-w-[720px] mx-auto px-6 pt-20 pb-12">
+      <ScrollReveal>
+        <p className="text-sm uppercase tracking-widest text-accent mb-4 font-sans">
+          Independent Investigation
+        </p>
+        <h1 className="mb-4">
+          What Happens When You Actually Analyze 9,064 BetterHelp Reviews
+        </h1>
+        <p className="text-lg text-text-muted leading-relaxed mb-6 font-serif italic">
+          Each analysis raised a question only the next one could answer.
+        </p>
+        <p className="text-text-body leading-relaxed mb-2">
+          BetterHelp is the world&apos;s largest online therapy platform. In March 2023, the FTC filed a complaint alleging the company shared users&apos; health data with advertisers. A year later, the platform expanded insurance coverage &mdash; and the complaints changed shape. A trend emerged in the data. The methods revealed what&apos;s driving it. The gaps point to what to research next.
+        </p>
+        <p className="text-text-muted text-sm">
+          Alex Turvy, PhD &middot; March 2026
+        </p>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.15}>
+        <div className="grid grid-cols-3 gap-6 mt-10 mb-4 py-6 border-y border-border">
+          <StatCallout value="9,064" label="Reviews analyzed" />
+          <StatCallout value="8" label="Years of data" />
+          <StatCallout value="20" label="Topics discovered" />
+        </div>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.25}>
+        <p className="mt-6 text-sm text-text-muted">
+          I scraped every review with Python, ran the analysis in R, and built this report so each finding is traceable to the source data. Each section follows from a question the previous one couldn&apos;t answer.
+        </p>
+        <p className="text-text-muted text-xs mt-2">
+          Trustpilot reviews, March 2018 &ndash; February 2026
+        </p>
+      </ScrollReveal>
+    </div>
+  );
+}
